@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-/* .elementStyle {
+.elementStyle {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@
     max-width: 100%;
     min-height: 100%;
     max-height: 100%;
-} */
+}
 
 .mainNavContainerWrapper {
     display: flex;
@@ -46,14 +46,14 @@
    width: 100%;
    padding: 15px 4vw;
    margin-top: 2vh;
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 
    .mainNavContainer{
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     }
 
@@ -86,11 +86,26 @@
     border-radius: 4px;
 }
 .logincart{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 8rem;
     margin-left: 12rem;
 }
 .logincart>ul{
 display: flex;
 justify-content: space-around;
+}
+
+.navlist{
+    display: flex;
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    margin-top: 1rem;
 }

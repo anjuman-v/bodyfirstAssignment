@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import style from './navbar.module.css'
 
 function Navbar() {
@@ -24,7 +25,16 @@ function Navbar() {
             </div>
 
         </div> 
-        <div>hii</div>
+        <div>
+            <ul className={style.navlist}>
+                <li> Best Sellers</li> 
+                <li>Flash Sale</li>
+                <li>Buy 1 Get 1</li>
+                <li>Combos</li>
+                <li>Kids</li>
+                <li>Shop</li>
+            </ul>
+        </div>
         </div>
        
 
